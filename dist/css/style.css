@@ -600,9 +600,8 @@ html {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 60%;
+  width: 70%;
   height: 30%;
-  padding-bottom: 25rem;
   cursor: pointer;
 }
 
