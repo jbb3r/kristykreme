@@ -601,7 +601,7 @@ html {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 60%;
-  height: 40%;
+  height: 30%;
   cursor: pointer;
 }
 
