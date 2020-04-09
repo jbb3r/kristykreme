@@ -31,7 +31,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .projectwork-container {
     padding-top: 6rem;
   }
@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .title2 {
     font-size: 5rem;
   }
@@ -127,7 +127,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .projectwork {
     width: 40rem;
     height: 40rem;
@@ -147,7 +147,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .flexcloud {
     width: 40rem;
   }
@@ -268,13 +268,13 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .title1 {
     font-size: 0rem;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .title1 {
     font-size: 3rem;
   }
@@ -323,7 +323,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .word-container {
     -webkit-transform: translateY(-45rem);
             transform: translateY(-45rem);
@@ -331,7 +331,7 @@ html {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .word-container {
     -webkit-transform: translateY(-56rem);
             transform: translateY(-56rem);
@@ -582,7 +582,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .title3 {
     font-size: 7rem;
   }
@@ -611,13 +611,13 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .cloudgallery {
     width: 90%;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .cloudgallery {
     width: 90%;
   }
@@ -636,14 +636,14 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .flexgallery {
     width: 20rem;
     height: 20rem;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .flexgallery {
     width: 29rem;
     height: 29rem;
@@ -663,14 +663,14 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .flexgallery1 {
     width: 31rem;
     height: 25rem;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .flexgallery1 {
     width: 45rem;
   }
@@ -722,7 +722,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .h4flex {
     height: 100%;
     -webkit-box-align: center;
@@ -755,13 +755,13 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .titleflex {
     width: 70%;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .titleflex {
     width: 60%;
   }
@@ -779,7 +779,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .title4 {
     font-size: 5rem;
   }
@@ -803,7 +803,7 @@ html {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .titleparagraph {
     width: 80%;
   }
@@ -859,7 +859,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .h4box {
     padding-bottom: 5rem;
   }
@@ -885,7 +885,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .contactwork {
     width: 40rem;
     height: 40rem;
@@ -907,7 +907,7 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 813px) and (max-width: 1024px) {
   .contactcloud {
     width: 40rem;
   }
