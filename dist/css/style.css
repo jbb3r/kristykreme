@@ -4,6 +4,10 @@
   margin-top: 0%;
 }
 
+.projectlink {
+  text-decoration: none;
+}
+
 .projectwork-container {
   width: 100%;
   display: -webkit-box;
@@ -139,6 +143,8 @@
   -ms-flex-negative: 0;
       flex-shrink: 0;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
@@ -304,8 +310,6 @@ html {
   z-index: 2;
   padding-right: 40rem;
   padding-left: 40rem;
-  font-family: 'Ibarra Real Nova', serif;
-  color: #f8efef;
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
@@ -336,6 +340,12 @@ html {
     -webkit-transform: translateY(-56rem);
             transform: translateY(-56rem);
   }
+}
+
+.word-container > a {
+  text-decoration: none;
+  font-family: 'Ibarra Real Nova', serif;
+  color: #f8efef;
 }
 
 .projects {
@@ -627,6 +637,8 @@ html {
   width: 35rem;
   height: 35rem;
   padding: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
@@ -654,6 +666,8 @@ html {
   width: 53.55rem;
   height: 30rem;
   padding: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 375px) and (max-width: 812px) {

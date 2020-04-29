@@ -107,8 +107,8 @@ html{
   z-index:2;
   padding-right: 40rem;
   padding-left: 40rem;
-  font-family: 'Ibarra Real Nova', serif;
-  color: $slate;
+
+ 
   
   @include phone {
     font-size: 3.5rem;
@@ -127,7 +127,11 @@ html{
   }
 }
 
-
+.word-container > a {
+  text-decoration: none;
+  font-family: 'Ibarra Real Nova', serif;
+  color: $slate;
+}
 .projects{
   margin: 0 auto;
   border-right: solid 2px $slate;

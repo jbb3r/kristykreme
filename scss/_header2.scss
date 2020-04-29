@@ -5,6 +5,10 @@
   }
    
      
+  .projectlink {
+    text-decoration: none;
+  }
+  
   .projectwork-container {
     width: 100%;
     display: flex;
@@ -89,13 +93,12 @@
       height: 40rem;
     }
   }
-   
-
  
   .flexcloud {
     width: 80rem;
     flex-shrink: 0;
     height: 100%;
+    object-fit: cover;
     @include phone{
       width: 30rem;
     }
