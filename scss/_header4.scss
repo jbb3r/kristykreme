@@ -1,6 +1,6 @@
 .header4 {
     height: 100vh;
-    background-color: $slate;
+    background-color: $almond;
     margin-top: 0%;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .title4 {
-    color: $deep;
+    color: $holly;
     font-size: 8rem;
     letter-spacing: 0.5rem;
     @include phone {
@@ -51,13 +51,13 @@
 }
 
 .title4:hover {
-    color: $pink;
+    color: $oak;
     overflow: hidden;
     cursor: pointer;
 }
 
 .titleparagraph {
-    color: $deep;
+    color: $oak;
     font-size: 2rem;
     letter-spacing: 0.1rem;
     @include phone{
@@ -69,7 +69,7 @@
 }
 
 .titleparagraph:hover {
-    color: $lightPink;
+    color: $yellow;
     font-size: 2rem;
     letter-spacing: 0.1rem;
 }
@@ -78,13 +78,13 @@
     display: inline-flex;
     width: 3.5rem;
     height: 3.5rem;
-    background: $pink;
+    background: $moss;
     text-decoration: none;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     font-weight: bolder;
-    color: $slate;
+    color: $yellow;
 }
 
 .h4box {
@@ -104,10 +104,11 @@
     display: flex;
     width: 60rem;
     height: 60rem;
-    overflow-x: auto;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
+
     scroll-behavior: smooth;
+    
     @include phone {
         width: 30rem;
         height: 30rem;
@@ -119,22 +120,7 @@
 }
 
 .contactcloud {
-    width: 80rem;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    opacity: 1;
-    @include phone {
-        width: 30rem;
-    }
-    @include tablet {
-        width: 40rem;
-    }
-}
-
-.contactcloud:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: .5;
+    width: 100%;
+    object-fit: contain;    
+    scroll-snap-type: x mandatory;
 }
