@@ -1345,9 +1345,7 @@ html {
 }
 
 .titleparagraph:hover {
-  color: rgba(224, 194, 110, 0.973);
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
+  color: #577545;
 }
 
 .h4boxbtns > a {
