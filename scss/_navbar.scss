@@ -1,0 +1,38 @@
+.nav {
+    background: $yellow;
+    height: 15rem;
+    width: 100%
+   
+}
+
+
+nav ul{
+    float: right;
+    margin:20 px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    padding-right: 40rem;
+    @include tablet { padding-right:
+        16rem;}
+    @include phone{
+    padding-right: 2.5rem;}
+    @include laptop {
+        padding-right: 29rem;
+    }
+}
+
+nav ul li a {
+    color: $holly;
+    font-size: 35px;
+    text-decoration: none;
+    @include phone {
+        font-size: 23px;
+    }
+    @include tablet{
+        font-size: 50x;
+    }
+}
+

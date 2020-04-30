@@ -38,27 +38,64 @@
     }
 }
 
-.title4 {
+
+.title4{
     color: $holly;
     font-size: 8rem;
     letter-spacing: 0.5rem;
     @include phone {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     @include tablet {
-        font-size: 5rem;
+        font-size: 6rem;
     }
-}
+    cursor:pointer;
+      position:relative;
+      padding:10px 20px;
+      transition:all .5s;
+      
+      &:after,&:before{
+        content:" ";
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        transition: all .35s ease;
+        opacity: 0;
+      }
+      &:after{
+        content: '';
+        left: 0;
+        bottom: 0;
+        border-bottom: 6px solid $holly;
+        border-left: 6px solid $holly;
+        transform: translate(100%, -50%)
+      }
+      &:before{
+        content: '';
+        right: 0;
+        top: 0;
+        border-top: 6px solid $holly;
+        border-right: 6px solid $holly;
+        transform: translate(-100%, 50%);
+      }
+      &:hover{
+        &:before,&:after{
+          transform: translate(0,0);
+          opacity: 1;
+       
+        }
+      }
+    }
 
 .title4:hover {
-    color: $oak;
-    overflow: hidden;
-    cursor: pointer;
-}
+        color: $oak;
+        cursor: pointer;
+    }
+  
 
 .titleparagraph {
     color: $oak;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 0.1rem;
     @include phone{
         font-size: 1rem;
@@ -247,12 +284,18 @@
     @include phone {
         top:42%;
     }
+    @include tablet {
+        top:46%;
+    }
   }
   
   .group2 {
     top: 53%;
     @include phone {
         top:58%;
+    }
+    @include tablet {
+        top:55%;
     }
   }
   

@@ -77,8 +77,6 @@ html{
   padding-right: 20rem;
   padding-left: 20rem;
 
- 
-  
   @include phone {
     font-size: 3.5rem;
     flex-direction: column;
@@ -87,8 +85,10 @@ html{
     line-height: 8rem;
   }
   @include tablet {
-    transform: translateY(-45rem);
-    font-size: 5rem;
+    transform: translateY(-100rem);
+    font-size: 7rem;
+    flex-direction: column;
+    line-height: 18rem;
 
   }
   @include laptop {
