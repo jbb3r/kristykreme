@@ -1651,57 +1651,156 @@ html {
   filter: alpha(opacity=100);
 }
 
-.nav {
-  background: rgba(224, 194, 110, 0.973);
-  height: 15rem;
-  width: 100%;
+html {
+  font-size: 62.5%;
+  padding: 0rem;
+  margin-top: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-nav ul {
-  float: right;
-  margin: 20 px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 100px;
-  padding-right: 40rem;
-}
-
-@media (min-width: 813px) and (max-width: 1024px) {
-  nav ul li {
-    padding-right: 16rem;
-  }
+#menuToggle {
+  display: block;
+  position: fixed;
+  top: 8rem;
+  left: 5rem;
+  margin-top: -3rem;
+  z-index: 5;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
-  nav ul li {
-    padding-right: 2.5rem;
+  #menuToggle {
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 813px) and (max-width: 1024px) {
+  #menuToggle {
+    margin-right: 4rem;
+  }
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #577545;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+#menuToggle a:hover {
+  color: #e0765b;
+}
+
+#menuToggle input {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: -1.25rem;
+  left: -.75rem;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span {
+  display: block;
+  width: 3.3rem;
+  height: 4px;
+  margin-bottom: .5rem;
+  position: relative;
+  background: #577545;
+  border-radius: 3px;
+  z-index: 1;
+  -webkit-transform-origin: 4px 0px;
+          transform-origin: 4px 0px;
+  -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menuToggle span:first-child {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) translate(-2px, -1px);
+          transform: rotate(45deg) translate(-2px, -1px);
+  background: #75422e;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+          transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  -webkit-transform: rotate(-45deg) translate(0, -1px);
+          transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+  width: 20rem;
+  height: 100vh;
+  margin: -10rem 0 0 -5rem;
+  padding: 5rem;
+  padding-top: 12rem;
+  background: rgba(224, 194, 110, 0.973);
+  list-style-type: none;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  #menu {
+    width: 72vw;
+    height: 70rem;
+    opacity: .94;
+  }
+}
+
+@media (min-width: 813px) and (max-width: 1024px) {
+  #menu {
+    width: 90vw;
+    height: 63rem;
+    opacity: .94;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-  nav ul li {
-    padding-right: 29rem;
+  #menu {
+    height: 75rem;
   }
 }
 
-nav ul li a {
-  color: #e0765b;
-  font-size: 35px;
-  text-decoration: none;
+#menu li {
+  padding: 2rem 0;
+  font-size: 3.5rem;
+  letter-spacing: .7rem;
 }
 
-@media (min-width: 375px) and (max-width: 812px) {
-  nav ul li a {
-    font-size: 23px;
-  }
-}
-
-@media (min-width: 813px) and (max-width: 1024px) {
-  nav ul li a {
-    font-size: 50x;
-  }
+#menuToggle input:checked ~ ul {
+  -webkit-transform: none;
+          transform: none;
 }
 
 html {
