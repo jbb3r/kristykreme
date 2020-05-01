@@ -94,7 +94,7 @@
   
 
 .titleparagraph {
-    color: $oak;
+    color: $moss;
     font-size: 3rem;
     letter-spacing: 0.1rem;
     @include phone{
@@ -106,7 +106,7 @@
 }
 
 .titleparagraph:hover {
-    color: $moss;
+    color: $holly;
 }
 
 .h4boxbtns>a {
@@ -193,7 +193,7 @@
     text-transform: lowercase;
     font-weight: bolder;
     letter-spacing: .5rem;
-    color: $ivory;
+    color: $moss;
     text-align: center;
     font-size: 60px;
     padding: 10px;
