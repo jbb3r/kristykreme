@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: 0rem;
+    box-sizing: border-box;
+}
+
+.title {
+    display:flex;
+    margin: auto ;
+    flex-direction: column;
+    margin-top: 50;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .title h2{
+    font-size: 40;
+    color: $pink;
+  }
+
+  .title h1{
+      font-size: 70;
+      border-right: solid 3px $lavender;
+      white-space: nowrap;
+      overflow: hidden;    
+      color: $periwinkle;
+      margin: 0 auto;
+  }
+
+.title p{
+      font-size: 30;
+  }
+
+  //this is the animation
+.title h1{
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 370px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: $pink;}
+    to{border-right-color: transparent;}
+  }
